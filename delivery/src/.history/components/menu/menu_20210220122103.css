@@ -1,0 +1,66 @@
+#menu{
+    height: 100vh;
+    color:white;
+}
+
+#navBox{
+    width:3.7em;
+    height:22.4em;
+    background:white;
+    position: relative;
+    bottom:8.7em;
+    border-radius: 0 0 1em 1em;
+    opacity:0;
+    clip-path: inset(0 0 100% 0);
+    color:black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+#menuBtnCont{
+    height:4em;
+    width:4em;
+    background:green;
+    border-radius:50%;
+    z-index: 2;
+}
+#navInnerCont{
+    width:70%;
+    background:white;
+    /* border:solid 1px black; */
+    color:black;
+    display: flex;
+    justify-content:space-evenly;
+    height:2.6em;
+    position: relative;
+    right:1em;
+    padding-left: 1em;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    opacity: 0;
+}
+.navItem{
+    background:rgba(0,0,0,.3);
+    width:30%;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content:center
+}
+#sideShow{
+    position:absolute;
+    width:60vw;
+    height:90vh;
+    background:white;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    opacity: 0;
+    display: none;
+    color:black;
+
+
+}
+.sideItem{
+    display:none;
+
+}

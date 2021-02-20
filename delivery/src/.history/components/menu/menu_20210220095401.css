@@ -1,0 +1,39 @@
+#menu{
+    height: 100vh;
+    color:white;
+}
+
+#navBox{
+    width:3.7em;
+    height:22.4em;
+    background:white;
+    position: relative;
+    bottom:8.7em;
+    border-radius: 0 0 1em 1em;
+    opacity:0;
+    clip-path: inset(0 0 100% 0);
+    color:black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+#menuBtnCont{
+    height:4em;
+    width:4em;
+    background:green;
+    border-radius:50%;
+    z-index: 2;
+}
+#navInnerCont{
+    width:60%;
+    background:white;
+    /* border:solid 1px black; */
+    height:2.6em;
+    position: relative;
+    right:1em;
+    padding-left: 1em;
+    clip-path: inset(0 100% 0 0);
+    opacity: 0;
+}

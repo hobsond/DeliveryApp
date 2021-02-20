@@ -1,0 +1,140 @@
+#menu{
+    height: 100vh;
+    color:white;
+}
+
+#navBox{
+    width:3.7em;
+    height:22.4em;
+    background:white;
+    position: relative;
+    bottom:8.7em;
+    border-radius: 0 0 1em 1em;
+    opacity:0;
+    clip-path: inset(0 0 100% 0);
+    color:black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+#menuBtnCont{
+    height:4em;
+    width:4em;
+    background:green;
+    border-radius:50%;
+    z-index: 2;
+}
+#navInnerCont{
+    width:70%;
+    background:white;
+    /* border:solid 1px black; */
+    color:black;
+    display: flex;
+    justify-content:space-evenly;
+    height:2.6em;
+    position: relative;
+    right:1em;
+    padding-left: 1em;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    opacity: 0;
+}
+.navItem{
+    background:rgba(0,0,0,.3);
+    width:30%;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content:center
+}
+#menuBkg{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    display:none;
+    z-index: 2;
+    /* background:blue; */
+}
+#sideShow{
+    position:absolute;
+    width:60vw;
+    height:90vh;
+    background:white;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    opacity: 0;
+    display: none;
+    color:black;
+    z-index: 3;
+
+
+}
+.sideItem{
+    display:none;
+    opacity:0
+
+}
+#menuInnerCont{
+    height:90%;
+    width:96%;
+    margin:0 auto;
+    background:rgba(0, 0, 0, 0.897);
+    position: relative;
+    top:1em;
+    border: solid 1px white;
+    border-radius: .4em .4em 0 0 ;
+    overflow-y: scroll;
+    padding-top:.3em;
+}
+.menuChoice{
+    background:url('../../images/mobile/menu/menuItemsBkg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    width:98%;
+    height:15em;
+    margin:0 auto;
+    margin-bottom: .3em;
+}
+.choiceTitle{
+    width:40%;
+    /* border:solid white 1px; */
+    position: relative;
+    top:1em;
+    left:.25em;
+    font-size: 1.8em;
+    text-align: center;
+}
+.choiceBtnCont{
+    /* border:solid white 1px; */
+    width:48%;
+    height:7em;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    bottom:4.6em;
+    left:10.4em;
+}
+.addBtn{
+    margin-bottom: 1em;
+    background:#81c988
+}
+.viewBtn{
+    background:#d8d174
+}
+.choiceBtn{
+    width:90%;
+    padding:.6em 0;
+    border-radius: 1.4em;
+    outline:none;
+
+}
+.choiceInfo{
+    position: relative;
+    bottom:4em;
+    width:80%;
+    left:2em;
+    font-size: 1.2em;
+}
