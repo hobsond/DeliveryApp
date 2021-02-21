@@ -1,0 +1,6 @@
+.App{
+  background:url('./images/mobile/homeScreen/bgMobile.png');
+  height:100vh;
+  background-position-x: -40em;
+  background-position-y: -30em;
+}

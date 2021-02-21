@@ -1,0 +1,11 @@
+#menu{
+    height: 100vh;
+    color:white;
+}
+#menuBtn{
+    width:70%;
+    position: absolute;
+    top:-8em;
+    right:4em;
+
+}

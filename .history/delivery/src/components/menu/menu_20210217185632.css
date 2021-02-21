@@ -1,0 +1,20 @@
+#menu{
+    height: 100vh;
+    color:white;
+}
+#menuBtn{
+    width:70%;
+    position: relative;
+
+}
+#navBox{
+    width:4em;
+    height:2em;
+    background:white;
+    position: relative;
+    right:6em;
+}
+nav{
+    display: flex;
+    align-items:center
+}

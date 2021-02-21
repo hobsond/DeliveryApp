@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+id='menuBtn'
+ xmlns:xlink="http://www.w3.org/1999/xlink" width="319" height="306" viewBox="0 0 319 306">
+  <defs>
+    <filter id="Ellipse_3" x="0" y="0" width="319" height="306" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="41" result="blur"/>
+      <feFlood flood-color="#96cb9b" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="menuBttn" transform="translate(129.401 110.5)">
+    <g transform="matrix(1, 0, 0, 1, -129.4, -110.5)" filter="url(#Ellipse_3)">
+      <g id="Ellipse_3-2" data-name="Ellipse 3" transform="translate(121 120)" fill="#81c988" stroke="#fff" stroke-width="1">
+        <ellipse cx="36.5" cy="30" rx="36.5" ry="30" stroke="none"/>
+        <ellipse cx="36.5" cy="30" rx="36" ry="29.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectangle_38" data-name="Rectangle 38" transform="translate(13.599 28.5)" fill="#fff" stroke="#cbcbcb" stroke-width="1">
+      <path d="M0,0H26a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M1,.5H26A2.5,2.5,0,0,1,28.5,3V3A2.5,2.5,0,0,1,26,5.5H1A.5.5,0,0,1,.5,5V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+    </g>
+    <g id="Rectangle_38-2" data-name="Rectangle 38" transform="translate(13.599 36.5)" fill="#fff" stroke="#cbcbcb" stroke-width="1">
+      <path d="M0,0H14a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M1,.5H14A2.5,2.5,0,0,1,16.5,3V3A2.5,2.5,0,0,1,14,5.5H1A.5.5,0,0,1,.5,5V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+    </g>
+    <g id="Rectangle_38-3" data-name="Rectangle 38" transform="translate(13.599 44.5)" fill="#fff" stroke="#cbcbcb" stroke-width="1">
+      <path d="M0,0H26a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M1,.5H26A2.5,2.5,0,0,1,28.5,3V3A2.5,2.5,0,0,1,26,5.5H1A.5.5,0,0,1,.5,5V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+    </g>
+  </g>
+</svg>
