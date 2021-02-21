@@ -1,0 +1,25 @@
+#home{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+font-family: basic-sans, sans-serif;
+font-size:2.7em; 
+text-align: center;
+    color:#FDFDFD;
+
+}
+#homeButton{
+    width:40%;
+    height: 3em;
+    border-radius:1em;
+    border:solid white 1px;
+    outline: none;
+    font-size: .6em;
+    background:#D8D174;
+    color:#FDFDFD;
+    font-family: bree, sans-serif;
+font-weight: 700;
+font-style: normal;
+}

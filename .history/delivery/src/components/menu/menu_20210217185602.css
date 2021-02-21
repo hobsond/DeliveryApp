@@ -1,0 +1,17 @@
+#menu{
+    height: 100vh;
+    color:white;
+}
+#menuBtn{
+    width:70%;
+    position: relative;
+
+}
+#navBox{
+    width:4em;
+    height:2em;
+    background:white;
+}
+nav{
+    display: flex;
+}

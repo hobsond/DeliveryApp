@@ -1,0 +1,22 @@
+.App{
+  background:url('./images/mobile/homeScreen/bgMobile.png');
+  height:100vh;
+  background-position-x: -34em;
+  background-position-y: -20em;
+
+}
+#bgFilter{
+  height: 100vh;
+  background:rgba(0,0,0,.3);
+  position:absolute;
+
+  
+}
+
+@media (min-width:800px){
+  .App{
+    background:url('./images/mobile/homeScreen/bg.jpg');
+    background-position: 0;
+    background-size: cover;
+  }
+}

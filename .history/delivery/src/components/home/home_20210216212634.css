@@ -1,0 +1,10 @@
+#home{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+font-family: basic-sans, sans-serif;
+font-size:2.7em; 
+text-align: center;
+color:white;
+}

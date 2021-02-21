@@ -1,0 +1,21 @@
+#menu{
+    height: 100vh;
+    color:white;
+}
+#menuBtn{
+    width:70%;
+    position: relative;
+    z-index:2
+
+}
+#navBox{
+    width:7em;
+    height:2.4em;
+    background:white;
+    position: relative;
+    right:7.3em;
+}
+nav{
+    display: flex;
+    align-items:center
+}
